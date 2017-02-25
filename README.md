@@ -26,3 +26,18 @@ On the other side, there's the geojson file containing the coordinates of the ci
 The GEOJSON file also contains each geographic slot being identified in order to ease the integration with the data changes.
 
 As told before, the geojson file is provided in the repository for demostration purposes but you'll need to generate your own, and also change the coordinate orientation in the geographic chart (circuitMap variable in the motoviz.js file, handling the dc.geoChoroplethChart instance that renders the circuit map).
+
+# Credits and acknowledgements
+
+The repository already includes all the required dependencies, which is how they were used in the original contenst. Although this makes it easier the starting point, the best practice would be to move those dependencies to a package manager.  You're more than welcome on doing so and sharing it with the rest of the community by performing a pull request.
+
+The following is a list of the libraries and tools being used:
+
+* jQuery
+* Twitter &trademark; Bootstrap
+* D3.js
+* Crossfilter
+* DC.js
+* Font-awesome
+* Color brewer.
+* UnderscoreJS
